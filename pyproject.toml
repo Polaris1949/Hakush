@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hakush"
+version = "0.1.0"
+description = "Hakush client"
+authors = ["Polaris1949"]
+license = "GPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.3"
+pydantic = "^2.6.1"
+
+[tool.poetry.group.dev.dependencies]
+aiofiles = "^23.2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
